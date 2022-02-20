@@ -1,15 +1,10 @@
-body {
-  font-family: "Be Vietnam Pro", sans-serif;
-}
-
 .Weather {
   border: 1px solid #dadde1;
-  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 200;
   color: #878787;
   padding: 16px;
   margin: 30px auto;
   border-radius: 4px;
-  max-width: 600px;
 }
 
 .Weather h1 {
@@ -30,4 +25,32 @@ body {
 
 .Weather form {
   margin-bottom: 20px;
+}
+
+.Weather img {
+  height: 64px;
+  width: 64px;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: -21px;
+}
+
+.Weather .temperature {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  color: black;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  position: relative;
+  top: -36px;
+  margin-right: 5px;
+  line-height: 1;
+}
+
+.float-left {
+  display: inline;
 }
