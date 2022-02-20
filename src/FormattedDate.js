@@ -19,7 +19,7 @@ export default function FormattedDate(props) {
     minutes = `0${minutes}`;
   }
 
-  if ((hours = 12)) {
+  if (hours === 12) {
     ampm = "PM";
   }
 

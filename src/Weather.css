@@ -5,6 +5,11 @@
   padding: 16px;
   margin: 30px auto;
   border-radius: 4px;
+  background: radial-gradient(
+    1224px at 10.6% 8.8%,
+    rgb(255, 255, 255) 0%,
+    rgb(153, 202, 251) 100.2%
+  );
 }
 
 .Weather h1 {
