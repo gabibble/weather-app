@@ -10,7 +10,7 @@ function App() {
         <footer>
           This project was created by Julia Giebultowicz and is{" "}
           <a
-            href="https://github.com/gabibble/practice.git"
+            href="https://github.com/gabibble/weather-app"
             target="_blank"
             rel="noreferrer"
           >
