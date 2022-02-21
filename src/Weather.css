@@ -3,7 +3,7 @@
   font-weight: 200;
   color: #878787;
   padding: 16px;
-  margin: 30px auto;
+  margin: 30px auto 15px;
   border-radius: 4px;
 }
 
@@ -47,6 +47,12 @@
   top: -36px;
   margin-right: 5px;
   line-height: 1;
+  font-weight: 400;
+}
+
+.Weather .unit a {
+  text-decoration: none;
+  color: lightgrey;
 }
 
 .float-left {
