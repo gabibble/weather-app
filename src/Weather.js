@@ -8,7 +8,7 @@ export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
   function handleResponse(response) {
-    console.log(response.data);
+    //console.log(response.data);
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
@@ -18,6 +18,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
       iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      coord: response.data.coord,
     });
   }
 
