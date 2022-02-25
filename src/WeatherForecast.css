@@ -10,6 +10,5 @@
 .WeatherForecast-icon img {
   height: 64px;
   display: inline-block;
-  position: relative;
-  top: -9px;
+  top: -6px;
 }

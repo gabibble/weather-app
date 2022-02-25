@@ -48,6 +48,7 @@
   margin-right: 5px;
   line-height: 1;
   font-weight: 400;
+  color: #878787;
 }
 
 .Weather .unit a {
@@ -57,4 +58,5 @@
 
 .float-left {
   display: inline;
+  color: #878787;
 }
