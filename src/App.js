@@ -8,7 +8,15 @@ function App() {
         <Weather defaultCity="New York" />
 
         <footer>
-          This project was created by Julia Giebultowicz and is{" "}
+          This project was created by{" "}
+          <a
+            href="https://www.juliagiebultowicz.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Julia Giebultowicz
+          </a>{" "}
+          and is{" "}
           <a
             href="https://github.com/gabibble/weather-app"
             target="_blank"
