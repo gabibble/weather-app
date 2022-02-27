@@ -43,7 +43,7 @@
   font-weight: 400;
   font-size: 64px;
   line-height: 64px;
-  color: black;
+  color: #48484a;
 }
 
 .Weather .unit {
@@ -53,12 +53,7 @@
   margin-right: 5px;
   line-height: 1;
   font-weight: 400;
-  color: #878787;
-}
-
-.Weather .unit a {
-  text-decoration: none;
-  color: lightgrey;
+  color: #48484a;
 }
 
 .float-left {
